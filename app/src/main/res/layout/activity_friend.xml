@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/friend_tv_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_friend_search"
+        android:gravity="center"
+        android:layout_margin="@dimen/dp_16"
+        android:padding="@dimen/dp_8"
+        android:text="@string/search"
+        android:textSize="@dimen/sp_18"
+        android:textColor="@color/colorDefault50"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/friend_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_16"
+        android:dividerHeight="@dimen/dp_10"
+        android:scrollbarSize="@dimen/dp_1"
+        app:layout_constraintTop_toBottomOf="@+id/friend_tv_search"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <cn.edu.cqcet.yd1701.team11.smallrooike.customview.FriendSideBar
+        android:id="@+id/phoneBookSideBar"
+        android:layout_width="@dimen/dp_16"
+        android:layout_height="@dimen/dp_500"
+        android:layout_margin="@dimen/dp_8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

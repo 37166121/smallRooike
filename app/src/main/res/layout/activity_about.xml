@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_100"
+        android:id="@+id/about_icon"
+        android:layout_margin="@dimen/dp_16"
+        android:src="@drawable/icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="TODO"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_appname"
+        android:text="@string/app_name"
+        android:textColor="@color/colorDefault"
+        android:textSize="@dimen/sp_24"
+        app:layout_constraintTop_toBottomOf="@+id/about_icon"
+        app:layout_constraintEnd_toEndOf="@+id/about_icon"
+        app:layout_constraintStart_toStartOf="@+id/about_icon"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_appversion"
+        android:text="version 1.0.0"
+        android:textColor="@color/colorDefault50"
+        app:layout_constraintEnd_toEndOf="@+id/about_appname"
+        app:layout_constraintTop_toBottomOf="@+id/about_appname"
+        app:layout_constraintStart_toStartOf="@+id/about_appname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_UAPP"
+        android:text="@string/UAPP"
+        android:padding="@dimen/dp_16"
+        android:textSize="@dimen/sp_14"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/about_bg"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

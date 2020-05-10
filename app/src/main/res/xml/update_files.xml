@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- external-path标签用来指定Uri共享，name属性的值可以自定义，path属性的值表示共享的具体位置 -->
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path name="external_files" path="."/>
+</paths>
+<!--<resources xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--&lt;!&ndash;    file-path	物理路径为Context.getFilesDir() + /files/*&ndash;&gt;-->
+<!--&lt;!&ndash;    cache-path	物理路径为Context.getCacheDir() + /files/*&ndash;&gt;-->
+<!--&lt;!&ndash;    external-path	物理路径为Environment.getExternalStorageDirectory() + /files/*&ndash;&gt;-->
+<!--&lt;!&ndash;    external-files-path	物理路径为Context.getExternalFilesDir(String) + /files/*&ndash;&gt;-->
+<!--&lt;!&ndash;    external-cache-path	物理路径为Context.getExternalCacheDir() + /files/*&ndash;&gt;-->
+<!--&lt;!&ndash;    root-path	物理路径相当于 /path/*&ndash;&gt;-->
+<!--    <paths>-->
+<!--        <external-path path="." name="external_files" />-->
+<!--        <files-path path="files" name="files" />-->
+<!--        <cache-path path="files" name="cache" />-->
+<!--        <external-path path="files" name="external" />-->
+<!--        <external-files-path path="files" name="externalfiles"/>-->
+<!--        &lt;!&ndash; 此标签需要 support 25.0.0以上才可以使用&ndash;&gt;-->
+<!--        <external-cache-path  path="files" name="externalcache"/>-->
+<!--        <root-path name="name" path="path" />-->
+<!--    </paths>-->
+<!--</resources>-->

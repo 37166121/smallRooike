@@ -1,0 +1,17 @@
+[
+	{
+		"name": "顺丰速运",
+		"url": "http://www.sf-express.com",
+		"tel": "95338"
+	},
+	{
+		"name": "中通速递",
+		"url": "http://www.zto.com",
+		"tel": "95311"
+	},
+	{
+		"name": "韵达快运",
+		"url": "http://www.yundaex.com",
+		"tel": "95546"
+	}
+]

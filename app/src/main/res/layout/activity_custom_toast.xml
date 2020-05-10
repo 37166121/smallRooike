@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:gravity="center"
+              android:padding="@dimen/dp_8"
+              android:background="@drawable/style_custom_toast_fillet"
+              android:layout_width="@dimen/dp_300"
+              android:layout_height="wrap_content">
+    <ImageView
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_48"
+            android:id="@+id/custom_toast_iv_image"
+            android:padding="@dimen/dp_6"
+            android:src="@drawable/exclamation307red"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/custom_toast_tv_text"
+            android:layout_margin="@dimen/dp_8"
+            android:textSize="@dimen/sp_18"
+            android:textColor="@color/colorDefault"
+            android:text="@string/errorpwd"/>
+</LinearLayout>
